@@ -11,6 +11,12 @@ terminal setup for pwsh,bash for windows
     download JetBrainsMono Nerd Font 
     https://www.nerdfonts.com/font-downloads
 
+## setting
+
+    go to a terminal right click open setting
+    navigate to Open Json file
+    and update with and update the new setting.json.
+
 ## bash
 
     set .bash_profile or .bashrc
