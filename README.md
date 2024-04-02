@@ -1,44 +1,43 @@
-# terminal
+# Terminal Setup
 
-terminal setup for pwsh,bash for windows
+This repository contains instructions and resources for setting up your terminal environment with enhancements for both PowerShell (`pwsh`) and bash on Windows.
 
-## install oh-my-posh
+## Installing oh-my-posh
 
-    https://ohmyposh.dev/docs/installation/windows
+Start by installing [oh-my-posh](https://ohmyposh.dev/docs/installation/windows), a highly customizable prompt for PowerShell.
 
-## fonts
+## Fonts
 
-    download JetBrainsMono Nerd Font 
-    https://www.nerdfonts.com/font-downloads
+Make sure to download and install the [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) for optimal visual experience.
 
-## setting
+## Configuration
 
-    go to a terminal right click open setting
-    navigate to Open Json file
-    and update with and update the new setting.json.
+1. Open your terminal and right-click to access settings.
+2. Navigate to "Open Json file" and update the `settings.json` file with the new configurations.
 
-## bash
+## Bash Setup
 
-    set .bash_profile or .bashrc
-    to load oh-my-posh and theme.
+Ensure to replace `${YOUR LOCATION}` with the actual location where you have stored the theme. The default location is `~/AppData/Local/Programs/oh-my-posh/themes/`.
+Configure your `.bash_profile` or `.bashrc` to load oh-my-posh and your desired theme. Use the following command:
 
-    ```sh
-        eval "$(oh-my-posh init bash --config ~/AppData/Local/Programs/oh-my-posh/themes/theme.omp.json ) "
-    ```
+```bash
+eval "$(oh-my-posh init bash --config ${YOUR LOCATION}/theme.omp.json)"
+```
 
-## pwsh
+## PowerShell (`pwsh`) Setup
 
-    place the script in Documents/Powershell/Microsoft.PowerShell_profile.ps1
-    load theme default location is  ~/AppData/Local/Programs/oh-my-posh/themes/
+Place the provided script in `Documents/Powershell/Microsoft.PowerShell_profile.ps1`. Load the theme with the following command:
 
-    `Microsoft.PowerShell_profile.ps1`
+```powershell
+oh-my-posh init pwsh --config '${YOUR LOCATION}/Theme.omp.json' | Invoke-Expression
+```
 
-    ```sh
-        oh-my-posh init pwsh --config '${YOUR LOCATION}/Theme.omp.json' | Invoke-Expression
-    ```
+Ensure to replace `${YOUR LOCATION}` with the actual location where you have stored the theme. The default location is `~/AppData/Local/Programs/oh-my-posh/themes/`.
 
-    get terminal icons https://github.com/devblackops/Terminal-Icons
+For terminal icons, you can utilize the [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) repository.
 
-## Screen shot
+## Screenshot
 
 ![Screenshot_1](https://raw.githubusercontent.com/ZafeerMahmood/terminal/main/ScreenShots/ss1.jpg)
+
+Feel free to customize and enhance your terminal setup further based on your preferences and needs.
