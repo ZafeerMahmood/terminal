@@ -35,4 +35,4 @@ terminal setup for pwsh,bash for windows
 
 ## Screen shot
 
-![Screenshot_1](https://raw.githubusercontent.com/ZafeerMahmood/Financial_dashboard/main/screenshots/ss1.png)
+![Screenshot_1](https://raw.githubusercontent.com/ZafeerMahmood/terminal/main/ScreenShots/ss1.jpg)
