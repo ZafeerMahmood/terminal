@@ -48,7 +48,6 @@ Here are some useful commands to enhance your terminal experience:
 - **`rm -r [directory]`**: Remove a directory and its contents recursively.
 - **`cp [source] [destination]`**: Copy files or directories.
 - **`mv [source] [destination]`**: Move files or directories.
-- **`cat [file]`**: Display the contents of a file.
 - **`ctrl+w`**: Close it
 - **`ctrl+c/v`**: Copy/Paste
 - **`ctrl+shift+-`**: Slipt the panel
