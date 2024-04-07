@@ -36,6 +36,23 @@ Ensure to replace `${YOUR LOCATION}` with the actual location where you have sto
 
 For terminal icons, you can utilize the [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) repository.
 
+## Commands
+
+
+Here are some useful commands to enhance your terminal experience:
+
+- **`ls`**: List directory contents.
+- **`cd [directory]`**: Change directory.
+- **`mkdir [directory]`**: Create a new directory.
+- **`rm [file]`**: Remove a file.
+- **`rm -r [directory]`**: Remove a directory and its contents recursively.
+- **`cp [source] [destination]`**: Copy files or directories.
+- **`mv [source] [destination]`**: Move files or directories.
+- **`cat [file]`**: Display the contents of a file.
+- **`ctrl+w`**: Close it
+- **`ctrl+c/v`**: Copy/Paste
+- **`ctrl+shift+-`**: Slipt the panel
+
 ## Screenshot
 
 ![Screenshot_1](https://raw.githubusercontent.com/ZafeerMahmood/terminal/main/ScreenShots/ss1.jpg)
