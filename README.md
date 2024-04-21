@@ -14,6 +14,8 @@ Make sure to download and install the [JetBrainsMono Nerd Font](https://www.nerd
 
 1. Open your terminal and right-click to access settings.
 2. Navigate to "Open Json file" and update the `settings.json` file with the new configurations.
+3. install [Zoxide](https://github.com/ajeetdsouza/zoxide)
+4. install [fuzzyfinder](https://github.com/junegunn/fzf#installation)
 
 ## Bash Setup
 
