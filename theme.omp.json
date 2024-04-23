@@ -5,8 +5,8 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#c386f1",
-          "foreground": "#ffffff",
+          "background": "#8AADF4",
+          "foreground": "#111111",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": " {{ .UserName }} ",
@@ -14,7 +14,7 @@
           "type": "session"
         },
         {
-          "background": "#ff479c",
+          "background": "#A53167",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -169,10 +169,10 @@
     {
       "segments": [
         {
-          "background": "#0077c2",
-          "foreground": "#ffffff",
+          "background": "#8AADF4",
+          "foreground": "#111111",
           "style": "plain",
-          "template": "<#0077c2,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#0077c2>\ue0b2</>",
+          "template": "<#8AADF4 ,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#8AADF4>\ue0b2</>",
           "type": "shell"
         },
         {
